@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="listeners.TestNGListeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Standalone">
+    <classes>
+          <class name="test.SignInPageTestcases"/>
+      </classes>
+   </test> <!-- Test -->
+   
+   
+   <test name="Test1">
+     <classes>
+       <class name="test.MySearchPageTestcases">
+         <methods>
+           <include name="Click_on_Mysearch"></include>
+         </methods>
+       </class>
+     </classes>
+   </test>
+   
+    <test name="Test2">
+   <classes>
+      <class name="test.RateResultPageTestcases">
+        <methods>
+         <include name="ClickOnSearch"></include>
+        </methods>
+       </class>
+   </classes>
+   </test>
+   
+       <test name="Test3">
+   <classes>
+      <class name="test.RateSummaryPageTestcases">
+        <methods>
+         <include name="ClickOnSelect"></include>
+        </methods>
+       </class>
+   </classes>
+   </test>
+   
+   
+ </suite> <!-- Suite -->

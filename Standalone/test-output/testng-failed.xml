@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.MySearchPageTestcases">
+        <methods>
+          <include name="click_on_itemsperpage_dropdown"/>
+          <include name="click_on_mysearch"/>
+          <include name="click_on_currentMonth"/>
+          <include name="createObject"/>
+          <include name="Click_on_itemsperpage"/>
+          <include name="Click_on_search"/>
+          <include name="click_on_last2Month"/>
+          <include name="click_on_lastMonth"/>
+          <include name="initBrowser"/>
+          <include name="click_on_showby_dropdown_lcl"/>
+          <include name="click_on_showby"/>
+        </methods>
+      </class> <!-- test.MySearchPageTestcases -->
+      <class name="test.HomePageTestcases">
+        <methods>
+          <include name="mysearch"/>
+          <include name="dashboard"/>
+          <include name="oceanlcl_cfstodoor"/>
+          <include name="createObject"/>
+          <include name="initBrowser"/>
+          <include name="oceanlcl_DoorToDoor"/>
+          <include name="oceanfcl_porttodoor"/>
+          <include name="oceanfcl_porttoport"/>
+          <include name="oceanlcl_cfstocfs"/>
+          <include name="Click_On_Aboutus"/>
+          <include name="oceanlcl_Doortocfs"/>
+        </methods>
+      </class> <!-- test.HomePageTestcases -->
+      <class name="test.SignInPageTestcases">
+        <methods>
+          <include name="createObject"/>
+          <include name="validateLogin"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- test.SignInPageTestcases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
