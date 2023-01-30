@@ -7,6 +7,7 @@ graph TD;
     DashBoardPage-->CompleteOrderPage;
     DashBoardPage-->CancelledOrderPage;
     DashBoardPage-->FavoritePage;
+    DashBoardPage-->ProfilePage;
     
 ```
 ![image](https://user-images.githubusercontent.com/117973924/215289004-6c5f6b6c-8b95-41ff-a1ac-5230f8b6649e.png)
