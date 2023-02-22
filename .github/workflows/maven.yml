@@ -18,7 +18,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: Microsoft Windows-latest
 
     steps:
     - uses: actions/checkout@v3
